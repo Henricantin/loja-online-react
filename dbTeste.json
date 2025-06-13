@@ -1,0 +1,109 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"name": "Camisa Azul",
+			"price": 49.9,
+			"description": "Camisa de algodão",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnrCwK2NvWEQAXX5giofrxvumzSVNBAgpfng&s"
+		},
+		{
+			"id": 2,
+			"name": "Calça Jeans",
+			"price": 99.9,
+			"description": "Calça jeans escura",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjEN4HnpZJQ_2vKSyYmpMuGqUaKRWyZ8g7zw&s"
+		},
+		{
+			"id": 3,
+			"name": "Tênis Branco",
+			"price": 129.9,
+			"description": "Tênis casual branco",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa4_IqyOnqXW46rOcP26Qg5ZYR0zMKaedqOQ&s"
+		},
+		{
+			"id": 4,
+			"name": "Camiseta Preta",
+			"price": 129.9,
+			"description": "Camiseta preta com estampa",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIvbjXJ90F8SRysALbnBH4Vtx_8gGQQBk2LQ&s"
+		},
+		{
+			"id": 5,
+			"name": "Meia branca",
+			"price": 29.9,
+			"description": "Meia branca",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuX9EYbC7zVh2qDbqMbnOJAVa8w2xw5zwEfA&s"
+		},
+		{
+			"id": 6,
+			"name": "Meia preta",
+			"price": 29.9,
+			"description": "Meia preta",
+			"image": "https://img.irroba.com.br/fit-in/800x800/filters:fill(fff):quality(80)/lojalaro/catalog/produtos/acessorios/meias/02150-2668/meia-02150-2668-01.jpg"
+		},
+		{
+			"id": 7,
+			"name": "Shoulder bag",
+			"price": 299.9,
+			"description": "Shoulder bag",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMRmymHdLe_fdMN69w4b95fZ6ngQsGV3Ecw&s"
+		},
+		{
+			"id": 8,
+			"name": "Corta vento branco",
+			"price": 179.9,
+			"description": "Corta vento branco",
+			"image": "https://wssbrasil.cdn.magazord.com.br/img/2025/03/produto/11437/jaqueta-corta-vento-light-masculino-wss-summer-off-white-15363-1-1e933cc5fd2776342637e9b3aefbef68.jpeg?ims=fit-in/600x600/filters:fill(fff)"
+		},
+		{
+			"id": 9,
+			"name": "Touca com pompom",
+			"price": 29.9,
+			"description": "Touca com pompom",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmzFTlPzOdj1Bc8NOpH6R3tMetYzBMlT0S_A&s"
+		},
+		{
+			"id": 10,
+			"name": "Manguito preto",
+			"price": 2999.9,
+			"description": "Manguito preto",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ53woiLV-hYiJ701q25L8O3_J7hcB9iAMYbg&s"
+		},
+		{
+			"id": 11,
+			"name": "Camiseta Tio Patinhas",
+			"price": 219.9,
+			"description": "Camiseta Tio Patinhas",
+			"image": "https://imgs.pontofrio.com.br/1505789679/1xg.jpg?imwidth=500"
+		},
+		{
+			"id": 12,
+			"name": "Camiseta Santos Azul",
+			"price": 19.9,
+			"description": "Camiseta Santos Azul",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Y0e-4lnMshzOhmWfPcCyGej1CGkMFCaXsg&s"
+		},
+		{
+			"id": 13,
+			"name": "Camiseta Inter",
+			"price": 299.9,
+			"description": "Camiseta Inter",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLiriG7sJGzAqLUhf9-gFCJu8umvyvoMxwjQ&s"
+		},
+		{
+			"id": 14,
+			"name": "Moletom Preto",
+			"price": 259.9,
+			"description": "Moletom Preto",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRa5eAC1XTK_9vyIGLIiaLPFMiYG7pbdqAug&s"
+		},
+		{
+			"id": 15,
+			"name": "Chuteira preta",
+			"price": 399.9,
+			"description": "Chuteira preta",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKVQ0sBVSTjj0hfgTQMglnGv2LZbw4dIDREQ&s"
+		}
+	]
+}

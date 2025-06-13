@@ -1,0 +1,65 @@
+/* Variáveis CSS para tema claro */
+:root {
+	--bg-primary: #f9f9f9;
+	--bg-secondary: #ffffff;
+	--text-primary: #333333;
+	--text-secondary: #666666;
+	--accent-primary: #007bff;
+	--accent-hover: #0056b3;
+	--border-color: #dddddd;
+	--shadow: rgba(0, 0, 0, 0.1);
+	--success-color: #28a745;
+}
+
+/* Variáveis CSS para tema escuro */
+[data-theme='dark'] {
+	--bg-primary: #121212;
+	--bg-secondary: #1e1e1e;
+	--text-primary: #ffffff;
+	--text-secondary: #cccccc;
+	--accent-primary: #4dabf7;
+	--accent-hover: #339af0;
+	--border-color: #404040;
+	--shadow: rgba(255, 255, 255, 0.1);
+	--success-color: #51cf66;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--bg-primary);
+	color: var(--text-primary);
+	padding: 2rem;
+	transition:
+		background-color 0.3s ease,
+		color 0.3s ease;
+}
+
+a {
+	color: var(--accent-primary);
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	background-color: var(--accent-primary);
+	color: var(--bg-secondary);
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 6px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: var(--accent-hover);
+}
