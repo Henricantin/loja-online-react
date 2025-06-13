@@ -9,9 +9,7 @@ interface ThemeProviderProps {
 
 export const ThemeProvider = ({ children }: ThemeProviderProps) => {
 	const [theme, setTheme] = useState<Theme>(() => {
-		// Verifica se há tema salvo no localStorage
 		const savedTheme = localStorage.getItem('theme') as Theme;
-		// Se não houver, verifica a preferência do sistema
 		if (!savedTheme) {
 			return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 		}
@@ -25,7 +23,6 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
 	};
 
 	useEffect(() => {
-		// Aplica a classe do tema no elemento raiz
 		document.documentElement.setAttribute('data-theme', theme);
 	}, [theme]);
 

@@ -1,4 +1,3 @@
-// src/pages/Checkout.tsx
 import { useState } from 'react';
 import { useCart } from '../../context/CartContext';
 import './Checkout.css';

@@ -1,4 +1,3 @@
-// src/components/ProductList.tsx
 import { useEffect, useState } from 'react';
 import './ProductList.css';
 import api from '../../services/api';
@@ -29,19 +28,16 @@ export default function ProductList() {
 		fetchProducts();
 	}, []);
 
-	// Resetar para página 1 quando a busca mudar
 	useEffect(() => {
 		setCurrentPage(1);
 	}, [searchTerm]);
 
-	// Filtrar produtos baseado no termo de busca
 	const filteredProducts = products.filter(
 		product =>
 			product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
 			product.description.toLowerCase().includes(searchTerm.toLowerCase())
 	);
 
-	// Calcular paginação
 	const totalPages = Math.ceil(filteredProducts.length / ITEMS_PER_PAGE);
 	const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
 	const endIndex = startIndex + ITEMS_PER_PAGE;
@@ -57,7 +53,7 @@ export default function ProductList() {
 
 	const goToPage = (page: number) => {
 		setCurrentPage(page);
-		// Scroll suave para o topo da lista
+
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	};
 
@@ -73,18 +69,15 @@ export default function ProductList() {
 		}
 	};
 
-	// Gerar números das páginas para exibir
 	const getPageNumbers = () => {
 		const pages = [];
 		const maxVisiblePages = 5;
 
 		if (totalPages <= maxVisiblePages) {
-			// Se há poucas páginas, mostra todas
 			for (let i = 1; i <= totalPages; i++) {
 				pages.push(i);
 			}
 		} else {
-			// Lógica para páginas com reticências
 			if (currentPage <= 3) {
 				pages.push(1, 2, 3, 4, '...', totalPages);
 			} else if (currentPage >= totalPages - 2) {

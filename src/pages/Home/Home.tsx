@@ -1,4 +1,4 @@
-import ProductList from '../components/Productlist';
+import ProductList from '../../components/ProductList/ProductList';
 
 export default function Home() {
 	return (

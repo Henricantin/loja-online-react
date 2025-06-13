@@ -1,4 +1,3 @@
-/* Variáveis CSS para tema claro */
 :root {
 	--bg-primary: #f9f9f9;
 	--bg-secondary: #ffffff;
@@ -11,7 +10,6 @@
 	--success-color: #28a745;
 }
 
-/* Variáveis CSS para tema escuro */
 [data-theme='dark'] {
 	--bg-primary: #121212;
 	--bg-secondary: #1e1e1e;
