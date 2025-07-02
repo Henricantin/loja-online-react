@@ -299,7 +299,6 @@
 	box-shadow: 0 4px 12px var(--shadow);
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
 	.cart-content {
 		grid-template-columns: 1fr;

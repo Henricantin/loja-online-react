@@ -4,7 +4,7 @@ import api from '../../services/api';
 import ProductCard from '../ProductCard/ProductCard';
 import type { Product } from '../../types/Product';
 
-const ITEMS_PER_PAGE = 6; // Número de produtos por página
+const ITEMS_PER_PAGE = 6;
 
 export default function ProductList() {
 	const [products, setProducts] = useState<Product[]>([]);

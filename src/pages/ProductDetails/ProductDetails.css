@@ -123,7 +123,6 @@
 	color: #e74c3c;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
 	.product-details {
 		flex-direction: column;

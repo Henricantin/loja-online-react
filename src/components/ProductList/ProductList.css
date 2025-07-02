@@ -202,7 +202,6 @@
 	margin-left: 0.5rem;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
 	.products-container {
 		padding: 1rem 0.5rem;
